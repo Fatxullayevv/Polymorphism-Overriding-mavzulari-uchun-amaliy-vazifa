@@ -1,13 +1,7 @@
 package org.example.aRasmUchun;
 
-public class GeometricFigure {
+public abstract class GeometricFigure {
 
-    public double  area(){
-
-        return 0;
-    }
-    public double perimetr(){
-        return 0;
-
-    }
+    public abstract double  area();
+    public abstract double perimetr();
 }

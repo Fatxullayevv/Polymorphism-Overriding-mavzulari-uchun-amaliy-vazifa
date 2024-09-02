@@ -1,6 +1,6 @@
 package org.example.bRasmUchun;
 
-public class Animal {
+public  abstract class Animal {
 
     private String name;
 
@@ -11,7 +11,7 @@ public class Animal {
         this.name = name;
     }
 
-    public  void  sound(){
+    public void  sound(){
     }
 
     public String getName() {
